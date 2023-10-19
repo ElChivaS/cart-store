@@ -55,13 +55,8 @@
 </template>
 
 <script>
-import food from '../assets/food.json'
 export default {
   name: 'HomeView',
-  data () {
-    return {
-      inventory: food
-    }
-  }
+  props: ['inventory']
 }
 </script>
